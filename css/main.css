@@ -126,6 +126,21 @@ span.howtoread {
 	font-weight: bold;
 }
 
+.sponsor {
+	background-color: #FFF;
+	min-height: 120px;
+}
+
+.sponsor h4 {
+	color: #222a31;
+}
+
+.sponsor ul li {
+	float: left;
+	margin-right:30px;
+	list-style-type: none;
+}
+
 .credit {
 	color: #FFF;
 	font-size: 0.6rem;
