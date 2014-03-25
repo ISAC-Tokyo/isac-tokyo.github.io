@@ -152,6 +152,14 @@ span.howtoread {
 	font-weight: bold;
 }
 
+.sns p {
+	margin-bottom:0;
+}
+
+.sns .button {
+	width:100%;
+}
+
 .sponsor {
 	background-color: #FFF;
 	min-height: 120px;
