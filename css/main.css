@@ -11,11 +11,21 @@ body {
 	background: #222a31;
 }
 
-.panel p{
+.panel p {
 	color: #FFF;
 	font-size: 0.8rem;
 }
 
+.panel h5 {
+	margin-top: 20px;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #FFF;	
+}
+
+.panel.callout {
+	background:#fff;
+}
 
 h1 {
 	margin-bottom: 2rem;	
@@ -32,13 +42,6 @@ h3 {
 	letter-spacing: 0.2rem;
 }
 
-.panel h5 {
-	margin-top: 20px;
-	font-size: 0.8rem;
-	font-weight: bold;
-	color: #FFF;	
-}
-
 h1.steelfish {
 	display: none;
 	color: #FFF;
@@ -52,8 +55,6 @@ h4.steelfish {
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
 	background: #f3f3f3;
 }
-
-
 
 table tr th {
 	padding: 0.8rem 0.625rem 0.3rem 0.625rem;
@@ -150,6 +151,14 @@ span.howtoread {
 	font-size: 0.8rem;
 	letter-spacing: 0rem;
 	font-weight: bold;
+}
+
+.sns p {
+	margin-bottom:0;
+}
+
+.sns .button {
+	width:100%;
 }
 
 .sponsor {
