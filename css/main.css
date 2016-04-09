@@ -20,7 +20,7 @@ body {
 	margin-top: 20px;
 	font-size: 0.8rem;
 	font-weight: bold;
-	color: #FFF;	
+	color: #FFF;
 }
 
 .panel.callout {
@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-	margin-bottom: 2rem;	
+	margin-bottom: 2rem;
 }
 
 h2 {
@@ -79,22 +79,20 @@ table tbody tr td {
 
 /* for pc only */
 @media only screen {
-	
+
 	#logo {
-		margin-top: 30px;
+		margin-top: 0px;
 		margin-bottom: 30px;
-		margin-left: -120px;
 	}
 
 }
 
 /* for smartphone only */
 @media only screen and (max-width: 40em) {
-	
+
 	#logo {
-		margin-top: 30px;
+		margin-top: 0px;
 		margin-bottom: 30px;
-		margin-left: -70px;
 	}
 
 }
@@ -107,7 +105,7 @@ table tbody tr td {
     src:url('../font/Steelfish-Regular.ttf.woff') format('woff'),
         url('../font/Steelfish-Regular.ttf.svg#Steelfish-Regular') format('svg'),
         url('../font/Steelfish-Regular.ttf.eot'),
-        url('../font/Steelfish-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+        url('../font/Steelfish-Regular.ttf.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -126,7 +124,7 @@ table tbody tr td {
 }
 
 .featuredPanel p {
-	font-size: 0.8rem;	
+	font-size: 0.8rem;
 }
 
 .leadparagraph {
