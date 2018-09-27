@@ -1,0 +1,189 @@
+/* @group overwrite of foundation */
+
+body {
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,'メイリオ',sans-serif;
+	background-color: #000;
+	background: #4e545a url(../img/bg.jpg) no-repeat;
+}
+
+.panel {
+	border-color: #222a31;
+	background: #222a31;
+}
+
+.panel p {
+	color: #FFF;
+	font-size: 0.8rem;
+}
+
+.panel h5 {
+	margin-top: 20px;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.panel.callout {
+	background:#fff;
+}
+
+h1 {
+	margin-bottom: 2rem;
+}
+
+h2 {
+	font-size: 1.375rem;
+	color: #FFF;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-size: 2.125rem;
+	letter-spacing: 0.2rem;
+}
+
+h1.steelfish {
+	display: none;
+	color: #FFF;
+}
+
+h3.steelfish,
+h4.steelfish {
+	color: #CCC;
+}
+
+table tr.even, table tr.alt, table tr:nth-of-type(even) {
+	background: #f3f3f3;
+}
+
+table tr th {
+	padding: 0.8rem 0.625rem 0.3rem 0.625rem;
+}
+
+table tr td {
+	padding: 0.5625rem 0.625rem;
+}
+
+table tr th {
+	width: 60px;
+	vertical-align: top;
+}
+
+table tbody tr td {
+	line-height: 1.4rem;
+}
+
+/* @end */
+
+
+
+/* for pc only */
+@media only screen {
+
+	#logo {
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+
+}
+
+/* for smartphone only */
+@media only screen and (max-width: 40em) {
+
+	#logo {
+		margin-top: 0px;
+		margin-bottom: 30px;
+	}
+
+}
+
+
+/* @group original additional styles */
+
+@font-face {
+    font-family: 'Steelfish-Regular';
+    src:url('../font/Steelfish-Regular.ttf.woff') format('woff'),
+        url('../font/Steelfish-Regular.ttf.svg#Steelfish-Regular') format('svg'),
+        url('../font/Steelfish-Regular.ttf.eot'),
+        url('../font/Steelfish-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#featuredImage {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	height: 200px;
+}
+
+.featuredPanel {
+	color: #FFF;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.featuredPanel p {
+	font-size: 0.8rem;
+}
+
+.leadparagraph {
+	background-color: rgba(0,0,0,0.4);
+	padding: 1.25rem;
+}
+
+#siteTitle {
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.steelfish {
+	font-family: 'Steelfish-Regular';
+}
+
+span.howtoread {
+	margin-left: 8px;
+	font-size: 0.8rem;
+	letter-spacing: 0rem;
+	font-weight: bold;
+}
+
+.sns p {
+	margin-bottom:0;
+}
+
+.sns .button {
+	width:100%;
+}
+
+.sponsor {
+	background-color: #FFF;
+	min-height: 120px;
+}
+
+.sponsor h4 {
+	color: #222a31;
+}
+
+.sponsor ul li {
+	float: left;
+	margin-right:30px;
+	list-style-type: none;
+}
+
+.credit {
+	color: #FFF;
+	font-size: 0.6rem;
+}
+
+/* 2017 watanabe added */
+
+@media only screen and (max-width: 40em) {
+	.apiResponsive{
+		width: 100%;	
+	}
+}
+/* @end */
