@@ -160,8 +160,6 @@ span.howtoread {
 }
 
 .sponsor {
-	background-color: #FFF;
-	min-height: 120px;
 }
 
 .sponsor h4 {
@@ -172,6 +170,15 @@ span.howtoread {
 	float: left;
 	margin-right:30px;
 	list-style-type: none;
+}
+
+.sponsor table {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+}
+.sponsor table tr {
+    background-color: rgba(0,0,0,0);
+    border: 0;
 }
 
 .credit {
