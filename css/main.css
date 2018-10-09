@@ -181,6 +181,10 @@ span.howtoread {
     border: 0;
 }
 
+.sponsor table tr td{
+    width:210px;
+}
+
 .credit {
 	color: #FFF;
 	font-size: 0.6rem;
