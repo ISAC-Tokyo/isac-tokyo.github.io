@@ -182,7 +182,9 @@ span.howtoread {
 }
 
 .sponsor table tr td{
-    width:210px;
+	width:210px;
+	height:100px;
+	
 }
 
 .credit {
